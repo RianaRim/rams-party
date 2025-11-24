@@ -1,0 +1,32 @@
+/* общие стили для страницы */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 1440px;
+    display: block;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-family: "Grid Type";
+    background-color: black;
+}
+
+/* задний фон */
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 2,5%;
+    background-image: url(../images/задний\ фон.svg);
+    width: 1440px;
+    height: 6000px;
+    opacity: 0.2;
+    z-index: -2;
+}
