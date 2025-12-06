@@ -13,8 +13,9 @@ body {
     display: block;
     margin: 0 auto;
     overflow-x: hidden;
-    font-family: "Grid Type";
+    font-family: "Grid Type", "Cygre-ExtraBold";
     background-color: black;
+    cursor: url('../images/cursor.svg') 2 2, default;
 }
 
 /* задний фон */
@@ -23,10 +24,398 @@ body::after {
     content: "";
     position: absolute;
     top: 0;
-    left: 2,5%;
-    background-image: url(../images/задний\ фон.svg);
+    background-image: url('../images/задний\ фон.svg');
     width: 1440px;
     height: 6000px;
     opacity: 0.2;
     z-index: -2;
+}
+
+/* секция 1 */
+
+.section-1 {
+    height: 1213px;
+}
+
+h1 {
+    font-size: 17.3vw;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-width: 20px;
+    -webkit-text-stroke-color: #0ADB81;
+    paint-order: stroke fill;
+    letter-spacing: 1px;
+    word-spacing: -80px;
+    position: relative;
+    top: 80px;
+    left: 11px;
+    animation: textColorChange 4s infinite linear forwards;
+    animation-play-state: running;
+}
+
+h1:hover {
+    animation-play-state: paused;
+}
+
+#sf-1 {
+    position: relative;
+    top: -70vw;
+    left: 6.6vw;
+    animation: snowFall 1.5s infinite ease reverse;
+}
+
+#sf-2 {
+    position: relative;
+    top: -74vw;
+    left: 20vw;
+    animation: snowFall 2s infinite ease reverse;
+}
+
+#sf-3 {
+    position: relative;
+    top: -71vw;
+    left: 71.4vw;
+    animation: snowFall 1.8s infinite ease reverse;
+}
+
+#sf-4 {
+    position: relative;
+    top: -63vw;
+    left: 80.4vw;
+    animation: snowFall 1s infinite ease reverse;
+}
+
+#sf-5 {
+    position: relative;
+    top: -47.4vw;
+    left: 73.8vw;
+    animation: snowFall 2.2s infinite ease reverse;
+}
+
+#sf-6 {
+    position: relative;
+    top: -54vw;
+    left: -0.6vw;
+    animation: snowFall 2s infinite ease reverse;
+}
+
+#sf-7 {
+    position: relative;
+    top: -38.8vw;
+    left: 2.2vw;
+    animation: snowFall 1.3s infinite ease reverse;
+}
+
+#sf-8 {
+    position: relative;
+    top: -34.5vw;
+    left: 62.7vw;
+    animation: snowFall 1s infinite ease reverse;
+}
+
+#sf-9 {
+    position: relative;
+    top: -25.2vw;
+    left: 70.9vw;
+    animation: snowFall 1.8s infinite ease reverse;
+}
+
+#sf-10 {
+    position: relative;
+    top: -25.2vw;
+    left: 11.9vw;
+    animation: snowFall 1.5s infinite ease reverse;
+}
+
+#sf-11 {
+    position: relative;
+    top: -26vw;
+    left: -14.4vw;
+    animation: snowFall 2s infinite ease reverse;
+}
+
+#ovechka {
+    position: relative;
+    z-index: 1;
+    top: 0.8vw;
+    left: 2.8vw;
+}
+
+#ovechka-2 {
+    position: relative;
+    z-index: 2;
+    top: -60.8vw;
+    left: -12.3vw;
+    animation: ovechkaTransform 1.5s infinite;
+    animation-play-state: paused;
+}
+
+#ovechka-2:hover {
+    animation-play-state: running;
+}
+
+#nimb {
+    position: relative;
+    top: -79.4vw;
+    left: 29.4vw;
+    z-index: -2;
+}
+
+.step-1 {
+    width: 466.5px;
+    height: 378px;
+    background-image: url('../images/steps\ 1.svg');
+    position: relative;
+    top: -92.3vw;
+    left: 47vw;
+    animation: baranWalk 0.8s infinite steps(1);
+}
+
+.step-2 {
+    width: 466.5px;
+    height: 378px;
+    background-image: url('../images/steps\ 1.svg');
+    position: relative;
+    top: -117vw;
+    left: 77.3vw;
+    animation: baranWalk 0.8s infinite steps(1);
+}
+
+.step-3 {
+    width: 466.5px;
+    height: 378px;
+    background-image: url('../images/steps\ 1.svg');
+    position: relative;
+    top: -141.5vw;
+    left: 15.6vw;
+    transform: scaleX(-1);
+    animation: baranWalk 0.8s infinite steps(1);
+}
+
+.step-4 {
+    width: 466.5px;
+    height: 378px;
+    background-image: url('../images/steps\ 1.svg');
+    position: relative;
+    top: -166.1vw;
+    left: -14.6vw;
+    transform: scaleX(-1);
+    animation: baranWalk 0.8s infinite steps(1);
+}
+
+/* секция 2 */
+
+.section-2 {
+height: 96px;
+}
+
+.rectangle {
+    position: relative;
+    width: 1530px;
+    height: 100px;
+    background-color: #0ADB81;
+    z-index: 1;
+    top: -0.2vw;
+    left: -3vw;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.text {
+    font-family: "Cygre-ExtraBold";
+    font-size: 50px;
+    position: relative;
+    top: -4.8vw;
+    left: -6vw;
+    z-index: 1;
+    color: white;
+    white-space: nowrap;
+    text-transform: uppercase;
+    animation: textMoving 15s linear infinite reverse;
+    animation-play-state: running;
+}
+
+.text:hover {
+    animation: textMoving 15s linear infinite;
+}
+
+/* секция 3 */
+
+.section-3 {
+height: 450px;
+}
+
+.square1 {
+    position: relative;
+    width: 523px;
+    height: 481px;
+    top: 0;
+    left: -3vw;
+    background-color: #0ADB81;
+    animation: squareColorChange 2s infinite 2s;
+}
+
+.square2 {
+    position: relative;
+    width: 481px;
+    height: 481px;
+    top: -31.3vw;
+    left: 31vw;
+    background-color: #029B59;
+    animation: squareColorChange2 2s infinite 2s;
+}
+
+.square3 {
+    position: relative;
+    width: 523px;
+    height: 481px;
+    top: -62.6vw;
+    left: 62.3vw;
+    background-color: #005D35;
+    animation: squareColorChange3 2s infinite 2s;
+}
+
+#text3 {
+    font-family: "Cygre-ExtraBold";
+    font-size: 108px;
+    color: white;
+    position: relative;
+    top: -85vw;
+    left: 1vw;
+    padding-right: 800px;
+    z-index: 1;
+}
+
+#text4 {
+    font-family: "Cygre-ExtraBold";
+    font-size: 108px;
+    color: white;
+    position: relative;
+    top: -99vw;
+    text-align: center;
+    padding: 0 400px 0 400px;
+    word-spacing: -25px;
+    z-index: 1;
+}
+
+#text5 {
+    font-family: "Cygre-ExtraBold";
+    font-size: 108px;
+    color: white;
+    position: relative;
+    top: -113vw;
+    left: -3vw;
+    padding-left: 850px;
+    text-align: right;
+    z-index: 1;
+}
+
+/* секция 4 */
+
+.section-4 {
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    animation: vinylMoving 20s linear infinite 3s;
+    animation-play-state: running;
+}
+
+.section-4:hover {
+    animation-play-state: paused;
+}
+
+#vinyl1 {
+    position: relative;
+    top: 4vw;
+    left: -24vw;
+    animation: vinylRotate 5s linear infinite;
+    animation-play-state: running;
+}
+
+#vinyl2 {
+    position: relative;
+    top: 4vw;
+    left: -24.5vw;
+    animation: vinylRotate 5s linear infinite;
+    animation-play-state: paused;
+}
+
+#vinyl2:hover {
+    animation-play-state: running;
+}
+
+#vinyl3 {
+    position: relative;
+    top: -31.5vw;
+    left: 46.7vw;
+    animation: vinylRotate 5s linear infinite;
+    animation-play-state: running;
+}
+
+/* #vinyl3:hover {
+    animation-play-state: running;
+} */
+
+#vinyl4 {
+    position: relative;
+    top: -31.5vw;
+    left: 46.4vw;
+    animation: vinylRotate 5s linear infinite;
+    animation-play-state: paused;
+}
+
+#vinyl4:hover {
+    animation-play-state: running;
+}
+
+#vinyl5 {
+    position: relative;
+    top: -67vw;
+    left: 117.6vw;
+    animation: vinylRotate 5s linear infinite;
+    animation-play-state: running;
+}
+
+/* #vinyl5:hover {
+    animation-play-state: running;
+} */
+
+#vinyl6 {
+    position: relative;
+    top: -67vw;
+    left: 117.6vw;
+    animation: vinylRotate 5s linear infinite;
+    animation-play-state: paused;
+}
+
+#vinyl6:hover {
+    animation-play-state: running;
+}
+
+#vinyl7 {
+    position: relative;
+    top: -103vw;
+    left: 189vw;
+    animation: vinylRotate 5s linear infinite;
+    animation-play-state: running;
+}
+
+/* #vinyl7:hover {
+    animation-play-state: running;
+} */
+
+#vinyl8 {
+    position: relative;
+    top: -103vw;
+    left: 189vw;
+    animation: vinylRotate 5s linear infinite;
+    animation-play-state: paused;
+}
+
+#vinyl8:hover {
+    animation-play-state: running;
 }

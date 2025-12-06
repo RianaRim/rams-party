@@ -1,0 +1,162 @@
+@keyframes textColorChange {
+    0% {
+        -webkit-text-stroke-color: #0ADB81;
+    }
+    25% {
+        -webkit-text-stroke-color: #FF0000;
+    }
+    50% {
+        -webkit-text-stroke-color: #FED90E;
+    }
+    75% {
+        -webkit-text-stroke-color: #0022FF;
+    }
+    100% {
+        -webkit-text-stroke-color: #0ADB81;
+    }
+}
+
+@keyframes snowFall {
+    0% {
+        top: 25%;
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes ovechkaTransform {
+0% {
+opacity:0;
+}
+40% {
+opacity:0;
+}
+50% {
+opacity:1;
+z-index: 1;
+}
+100% {
+opacity:0;
+z-index: 1;
+}
+}
+
+@keyframes baranWalk {
+0% {
+background-position-x: 0;
+}
+25% {
+background-position-x: -466.5px;
+}
+50% {
+background-position-x: -933px;
+}
+}
+
+@keyframes textMoving {
+    0% {
+        transform: translateZ(0);
+    }
+ 
+    100% {
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+@keyframes squareColorChange {
+    0% {
+        background-color: #0ADB81;
+    }
+    25% {
+        background-color: #0ADB81;
+    }
+    25% {
+        background-color: #029B59;
+    }
+    75% {
+        background-color: #029B59;
+    }
+    75% {
+        background-color: #005D35;
+    }
+    100% {
+        background-color: #005D35;
+    }
+    100% {
+        background-color: #0ADB81
+    }
+}
+
+@keyframes squareColorChange2 {
+    0% {
+        background-color: #029B59;
+    }
+    25% {
+        background-color: #029B59;
+    }
+    25% {
+        background-color: #005D35;
+    }
+    75% {
+        background-color: #005D35;
+    }
+    75% {
+        background-color: #0ADB81;
+    }
+    100% {
+        background-color: #0ADB81;
+    }
+    100% {
+        background-color: #029B59
+    }
+}
+@keyframes squareColorChange3 {
+    0% {
+        background-color: #005D35;
+    }
+    25% {
+        background-color: #005D35;
+    }
+    25% {
+        background-color: #0ADB81;
+    }
+    75% {
+        background-color: #0ADB81;
+    }
+    75% {
+        background-color: #029B59;
+    }
+    100% {
+        background-color: #029B59;
+    }
+    100% {
+        background-color: #005D35
+    }
+}
+
+@keyframes vinylMoving {
+    0% {
+        transform: translateX(0);
+    }
+ 
+    100% {
+        transform: translateX(-175%);
+    }
+}
+
+@keyframes vinylRotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: rotateY(0);
+    }
+}
