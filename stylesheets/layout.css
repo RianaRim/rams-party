@@ -37,6 +37,39 @@ body::after {
     height: 1213px;
 }
 
+.back {
+    position: relative;
+    width: 1440px;
+    height: 2513px;
+    background-image: url('../images/фон.svg');
+    z-index: -2;
+    opacity: 0.2;
+    top: -3770px;
+    left: 0;
+}
+
+.back-2 {
+    position: relative;
+    width: 1440px;
+    height: 2513px;
+    background-image: url('../images/фон\ 2.svg');
+    z-index: -2;
+    opacity: 0.2;
+    top: -3770px;
+    left: 0;
+}
+
+.back-3 {
+    position: relative;
+    width: 1440px;
+    height: 981px;
+    background-image: url('../images/фон\ 3.svg');
+    z-index: -2;
+    opacity: 0.2;
+    top: -3770px;
+    left: 0;
+}
+
 h1 {
     font-size: 17.3vw;
     text-align: center;
@@ -144,7 +177,7 @@ h1:hover {
 #ovechka-2 {
     position: relative;
     z-index: 2;
-    top: -60.8vw;
+    top: -61vw;
     left: -12.3vw;
     animation: ovechkaTransform 1.5s infinite;
     animation-play-state: paused;
@@ -356,10 +389,6 @@ height: 450px;
     animation-play-state: running;
 }
 
-/* #vinyl3:hover {
-    animation-play-state: running;
-} */
-
 #vinyl4 {
     position: relative;
     top: -31.5vw;
@@ -379,10 +408,6 @@ height: 450px;
     animation: vinylRotate 5s linear infinite;
     animation-play-state: running;
 }
-
-/* #vinyl5:hover {
-    animation-play-state: running;
-} */
 
 #vinyl6 {
     position: relative;
@@ -404,10 +429,6 @@ height: 450px;
     animation-play-state: running;
 }
 
-/* #vinyl7:hover {
-    animation-play-state: running;
-} */
-
 #vinyl8 {
     position: relative;
     top: -103vw;
@@ -417,5 +438,107 @@ height: 450px;
 }
 
 #vinyl8:hover {
+    animation-play-state: running;
+}
+
+/* секция 5 */
+
+.section-5 {
+    height: 50px;
+}
+
+#gif {
+    position: relative;
+    width: 1562px;
+    height: 200px;
+    background-image: url('../images/gif\ 1.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: -7vw;
+    left: -4vw;
+    z-index: -1;
+}
+
+/* секция 6 */
+
+.section-6 {
+    height: 2237px;
+}
+
+#bigV {
+    height: 1000px;
+}
+
+#party {
+    font-size: 457px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#bigv {
+    position: relative;
+    top: -7.4vw;
+    left: 6vw;
+    /* opacity: 0.2; */
+}
+
+#baa-1 {
+    position: relative;
+    top: -113.6vw;
+    left: 8vw;
+    animation: baaJump 1s ease infinite;
+    animation-play-state: paused;
+}
+
+#baa-1:hover {
+    animation-play-state: running;
+}
+
+#baa-2 {
+    position: relative;
+    top: -128vw;
+    left: -6.3vw;
+    animation: baaJump2 1s ease infinite;
+    animation-play-state: paused;
+}
+
+#baa-2:hover {
+    animation-play-state: running;
+}
+
+#baa-3 {
+    position: relative;
+    top: -137.6vw;
+    left: -9.9vw;
+    animation: baaJump2 1s ease infinite;
+    animation-play-state: paused;
+}
+
+#baa-3:hover {
+    animation-play-state: running;
+}
+
+#baa-4 {
+    position: relative;
+    top: -127.5vw;
+    left: -13.4vw;
+    animation: baaJump2 1s ease infinite;
+    animation-play-state: paused;
+}
+
+#baa-4:hover {
+    animation-play-state: running;
+}
+
+#baa-5 {
+    position: relative;
+    top: -134.2vw;
+    left: 63.6vw;
+    animation: baaJump3 1s ease infinite;
+    animation-play-state: paused;
+}
+
+#baa-5:hover {
     animation-play-state: running;
 }
