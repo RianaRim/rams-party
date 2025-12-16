@@ -18,7 +18,7 @@
 
 @keyframes snowFall {
     0% {
-        top: 25%;
+        transform: translateY(500%);
         opacity: 0;
     }
     50% {
@@ -60,11 +60,11 @@ background-position-x: -933px;
 
 @keyframes textMoving {
     0% {
-        transform: translateZ(0);
+        transform: translateX(0);
     }
  
     100% {
-        transform: translate3d(-100%, 0, 0);
+        transform: translateX(-70%);
     }
 }
 
@@ -145,7 +145,7 @@ background-position-x: -933px;
     }
  
     100% {
-        transform: translateX(-175%);
+        transform: translateX(-141.9%);
     }
 }
 
