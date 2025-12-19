@@ -203,7 +203,7 @@ body::after {
 }
 
 .step-1, .step-2, .step-3, .step-4 {
-    animation: baranWalk 2s infinite steps(1);
+    animation: baranWalk 1.5s infinite steps(1);
 }
 
 /* секция 2 */
@@ -309,3 +309,21 @@ body::after {
 }
 
 /* секция 6 */
+
+.section-6 {
+    position: relative;
+}
+
+#party {
+    font-size: 28.93vw;
+    color: white;
+    -webkit-text-stroke-width: 2vw;
+    -webkit-text-stroke-color: #0ADB81;
+    paint-order: stroke fill;
+    letter-spacing: 0.7vw;
+    word-spacing: -9.5vw;
+    line-height: 17.6vw;
+    text-align: center;
+    margin-top: 9vw;
+    animation: textColorChange 6s infinite linear forwards;
+}
