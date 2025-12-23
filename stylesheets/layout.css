@@ -21,7 +21,7 @@ body {
 
 /* задний фон */
 
-body::after {
+/* body::after {
     content: "";
     position: absolute;
     top: 0;
@@ -32,7 +32,7 @@ body::after {
     margin: 0 20px 0 38px;
     opacity: 0.2;
     z-index: -2;
-}
+} */
 
 /* секция 1 */
 
@@ -312,6 +312,7 @@ body::after {
 
 .section-6 {
     position: relative;
+    height: 141vw;
 }
 
 #party {
@@ -326,4 +327,361 @@ body::after {
     text-align: center;
     margin-top: 9vw;
     animation: textColorChange 6s infinite linear forwards;
+}
+
+#bigv {
+    position: absolute;
+    top: 16vw;
+    left: 8.5vw;
+    /* opacity: 0.3; */
+}
+
+#bigV {
+   display: flex;
+   flex-direction: row;
+   position: absolute;
+   z-index: 1;
+}
+
+#baa-1 {
+    /* position: absolute;
+    top: 21vw;
+    left: 11vw; */
+    height: 20vw;
+    margin-top: 21.5vw;
+    margin-left: 11vw;
+    rotate: -66.83deg;
+    animation: baaJump2 0.8s linear infinite;
+    animation-play-state: paused;
+}
+
+#baa-1:hover {
+    animation-play-state: running;
+}
+
+#baa-2 {
+    /* position: absolute;
+    top: 6.5vw;
+    left: 23vw; */
+    height: 20vw;
+    margin-top: 7vw;
+    margin-left: -9.8vw;
+    rotate: -33.7deg;
+    animation: baaJump2 0.8s linear infinite;
+    animation-play-state: paused;
+}
+
+#baa-2:hover {
+    animation-play-state: running;
+}
+
+#baa-3 {
+    /* position: absolute;
+    top: 0.5vw;
+    left: 41vw; */
+    height: 20vw;
+    margin-top: -0.5vw;
+    margin-left: -0.2vw;
+    animation: baaJump2 0.8s linear infinite;
+    animation-play-state: paused;
+}
+
+#baa-3:hover {
+    animation-play-state: running;
+}
+
+#baa-4 {
+    /* position: absolute;
+    top: 7.5vw;
+    left: 59vw; */
+    height: 20vw;
+    margin-top: 7vw;
+    margin-left: 0.2vw;
+    rotate: 34.98deg;
+    animation: baaJump2 0.8s linear infinite;
+    animation-play-state: paused;
+}
+
+#baa-4:hover {
+    animation-play-state: running;
+}
+
+#baa-5 {
+    /* position: absolute;
+    top: 25vw;
+    left: 67vw; */
+    height: 20vw;
+    margin-top: 24.5vw;
+    margin-left: -11vw;
+    rotate: 75deg;
+    animation: baaJump2 0.8s linear infinite;
+    animation-play-state: paused;
+}
+
+#baa-5:hover {
+    animation-play-state: running;
+}
+
+#sf-12 {
+    position: absolute;
+    top: 36.5vw;
+    left: 7.5vw;
+    animation: snowFall 1s linear infinite reverse;
+}
+
+#sf-13 {
+    position: absolute;
+    top: 23.8vw;
+    left: 16.3vw;
+    animation: snowFall 1.4s linear infinite reverse;
+}
+
+#sf-14 {
+    position: absolute;
+    top: 37.8vw;
+    left: 78.8vw;
+    animation: snowFall 1.2s linear infinite reverse;
+}
+
+#sf-15 {
+    position: absolute;
+    top: 26.8vw;
+    left: 83.8vw;
+    animation: snowFall 1.6s linear infinite reverse;
+}
+
+#sf-16 {
+    position: absolute;
+    top: 37.5vw;
+    left: 31.8vw;
+    animation: snowFall 1.8s linear infinite reverse;
+    z-index: 1;
+}
+
+#sf-17 {
+    position: absolute;
+    top: 47vw;
+    left: 88.8vw;
+    animation: snowFall 1.8s linear infinite reverse;
+}
+
+#bigBaa {
+    position: absolute;
+    height: 80.5vw;
+    top: 59.5vw;
+    left: 2.5vw;
+    z-index: 1;
+}
+
+#upLight {
+    position: absolute;
+    top: 29.5vw;
+    left: -12vw;
+    animation: lightRotate 2.5s linear infinite;
+}
+
+#downLight {
+    position: absolute;
+    top: 52.5vw;
+    left: -25.5vw;
+    animation: lightRotate2 2.5s linear infinite;
+}
+
+/* секция 7 */
+
+.section-7 {
+    width: 111vw;
+    height: 81vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+#plast-1 {
+    margin-top: 3vw;
+    margin-left: -12vw;
+    animation: vinylRotate2 5s linear infinite;
+    animation-play-state: paused;
+}
+
+#plast-1:hover {
+    animation-play-state: running;
+}
+
+#plast-2 {
+    margin-left: 25vw;
+    animation: vinylRotate2 5s linear infinite;
+    animation-play-state: paused;
+}
+
+#plast-2:hover {
+    animation-play-state: running;
+}
+
+#plast-3 {
+    margin-top: 6vw;
+    margin-left: 25vw;
+    animation: vinylRotate2 5s linear infinite;
+    animation-play-state: paused;
+}
+
+#plast-3:hover {
+    animation-play-state: running;
+}
+
+#plast-4 {
+    margin-left: 26vw;
+    animation: vinylRotate2 5s linear infinite;
+    animation-play-state: paused;
+}
+
+#plast-4:hover {
+    animation-play-state: running;
+}
+
+#rectangle-1, #rectangle-2, #rectangle-3, #rectangle-4 {
+    position: absolute;
+    width: 21vw;
+    height: 10vw;
+    border-radius: 2.5vw;
+    background-color: #0ADB81;
+    font-family: Cygre-ExtraBold;
+    font-size: 4vw;
+    color: white;
+    text-align: center;
+    padding-top: 3vw;
+}
+
+#rectangle-1 {
+    top: 13vw;
+    left: 1vw;
+    z-index: -1;
+    animation: rectangleMove 5s linear infinite;
+}
+
+#rectangle-2 {
+    top: 13vw;
+    left: 56vw;
+    z-index: -1;
+    animation: rectangleMove 5s linear infinite;
+}
+
+#rectangle-3 {
+    top: 49vw;
+    left: 21vw;
+    z-index: -1;
+    animation: rectangleMove2 5s linear infinite;
+}
+
+#rectangle-4 {
+    top: 49vw;
+    left: 77vw;
+    z-index: -1;
+    animation: rectangleMove2 5s linear infinite;
+}
+
+#qr {
+    position: absolute;
+    top: 28vw;
+    left: 34.2vw;
+    opacity: 0;
+    transition: opacity 0.3s linear;
+}
+
+#qr:hover {
+    transition: opacity 0.3s linear;
+    opacity: 1;
+}
+
+#rt-green {
+    position: absolute;
+    top: -8vw;
+    left: 7vw;
+}
+
+#rt-green-2 {
+    position: absolute;
+    top: 28.5vw;
+    left: 84.5vw;
+}
+#rt-green-3 {
+    position: absolute;
+    top: 40.5vw;
+    left: 29vw;
+}
+
+#rt-red {
+    position: absolute;
+    top: -3vw;
+    left: 82.5vw;
+}
+
+#rt-red-2 {
+    position: absolute;
+    top: 30vw;
+    left: 6.5vw;
+}
+
+#rt-red-3 {
+    position: absolute;
+    top: 76vw;
+    left: 81.5vw;
+}
+
+#rt-yellow {
+    position: absolute;
+    top: 6vw;
+    left: 30vw;
+}
+
+#rt-yellow-2 {
+    position: absolute;
+    top: 48vw;
+    left: 89vw;
+}
+
+#rt-yellow-3 {
+    position: absolute;
+    top: 69vw;
+    left: 9.5vw;
+}
+
+#rt-blue {
+    position: absolute;
+    top: 28.5vw;
+    left: 21.5vw;
+}
+
+#rt-blue-2 {
+    position: absolute;
+    top: 30vw;
+    left: 62vw;
+}
+
+#rt-blue-3 {
+    position: absolute;
+    top: 62.5vw;
+    left: 49.5vw;
+}
+
+.section-8 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    font-family: Cygre-ExtraBold;
+    font-size: 3vw;
+    letter-spacing: 0.17vw;
+    color: white;
+}
+
+#text6 {
+    margin-left: 5vw;
+}
+
+#text7 {
+    margin-left: 4vw;
+}
+
+#text8 {
+    margin-left: 30vw;
 }
