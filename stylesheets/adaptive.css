@@ -1,0 +1,159 @@
+@media screen and (min-width: 1510px) {
+    body {
+        width: 110%;
+    }
+
+    .section-1, .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8 {
+        width: 110%;
+    }
+
+    .section-1 #ovechka {
+        left: 26vw;
+    }
+
+    .section-1 #ovechka-2 {
+        left: 24vw;
+    }
+
+    .section-1 #nimb {
+        top: 31vw;
+        left: 32.6vw;
+    }
+
+    .section-1 .step-4 {
+        width: 30.3vw;
+        height: 25vw;
+        margin-left: -15.7vw;
+    }
+
+    .section-1 .step-2 {
+        width: 30.3vw;
+        height: 25vw;
+        left: 2vw;
+    }
+
+    .section-1 .step-1 {
+        width: 30.3vw;
+        height: 25vw;
+        left: 6vw;
+    }
+
+    .section-1 .step-3 {
+        width: 19vw;
+        height: 25vw;
+        margin-left: 12.3vw;
+    }
+
+    #party {
+        text-align: center;
+        margin-left: -20vw;
+    }
+
+    .section-7 {
+        width: 115%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    body {
+        width: 110%;
+    }
+    .section-1 {
+        width: 120%;
+    }
+
+    h1 {
+        left: 9vw;
+    }
+
+    #ovechka {
+        height: 47vw;
+        top: 36vw;
+        left: 28vw;
+    }
+
+    #ovechka-2 {
+        height: 67vw;
+        left: 25.8vw;
+        top: 17vw;
+    }
+
+    #nimb {
+        height: 35vw;
+        left: 35vw;
+        top: 30vw;
+    }
+
+    .section-1 {
+        width: 120%;
+    }
+
+    .section-2 {
+        width: 150%;
+    }
+
+    .step-4 {
+        width: 27.5%;
+        height: 30vw;
+        margin-top: 53vw;
+        margin-left: -15.6vw;
+    }
+
+    .step-2 {
+        position: relative;
+        height: 30vw;
+        left: 0.5vw;
+        z-index: -1;
+    }
+
+    .step-1 {
+        position: relative;
+        width: 36.3vw;
+        height: 30vw;
+        left: -6vw;
+        z-index: -1;
+    }
+
+    .step-3 {
+        position: relative;
+        width: 20.3vw;
+        height: 30vw;
+        left: -5vw;
+        z-index: -1;
+    }
+
+    .section-1 .section-3 {
+    width: 100%;
+}
+
+/* #bigv {
+    left: 1.1vw;
+}
+
+#bigV {
+    width: 100%;
+}
+
+#baa-1 {
+    margin-left: 7vw;
+    margin-right: 2vw;
+}
+
+#baa-2 {
+    margin-right: 2vw;
+}
+
+#baa-3 {
+    margin-right: 2vw;
+}
+
+#baa-4 {
+    margin-right: 2vw;
+} */
+
+.square1, .square2, .square3 {
+    width: 34vw;
+}
+
+}
+
