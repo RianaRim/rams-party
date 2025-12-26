@@ -9,7 +9,6 @@ html {
 }
 
 body {
-    /* width: 1440px; */
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -41,7 +40,7 @@ body {
     margin-bottom: -0.7vw;
 }
 
-.section-1 h1 {
+.section-1 #h1 {
     font-size: 16.93vw;
     color: white;
     -webkit-text-stroke-width: 2vw;
@@ -57,7 +56,7 @@ body {
     animation: textColorChange 6s infinite linear forwards;
 }
 
-.section-1 h1:hover {
+.section-1 #h1:hover {
     animation-play-state: paused;
 }
 
@@ -146,8 +145,8 @@ body {
 
 #ovechka-2 {
     position: absolute;
-    top: 17.4vw;
-    left: 26.6vw;
+    top: 17vw;
+    left: 24vw;
     animation: ovechkaTransform 1.7s ease infinite;
     animation-play-state: paused;
 }
@@ -292,6 +291,10 @@ body {
     display: flex;
     flex-direction: row;
     animation: vinylMoving 25s linear infinite;
+}
+
+#vinyl1, #vinyl2 {
+    animation: vinylRotate 3s linear infinite;
 }
 
 /* секция 5 */
