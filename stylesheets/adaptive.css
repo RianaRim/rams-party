@@ -4,6 +4,13 @@
     width: 150%;
     }
 
+.audio {
+    width: 30vw;
+    height: 4vw;
+    margin: 1vw 36vw;
+    z-index: 1;
+}
+
 .section-1 #ovechka {
     width: 52%;
     height: 63%;
@@ -186,6 +193,13 @@
     .section-1 {
         height: 133vw;
     }
+
+    .audio {
+    width: 62%;
+    height: 7%;
+    margin: 0vw 4vw;
+    z-index: 1;
+}
 
     .section-1 #h1 {
         font-size: 24vw;

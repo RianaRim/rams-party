@@ -40,6 +40,18 @@ body {
     margin-bottom: -0.7vw;
 }
 
+.audio {
+    position: absolute;
+    margin: 2vw 40vw;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.audio:hover {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
 .section-1 #h1 {
     font-size: 16.93vw;
     color: white;
